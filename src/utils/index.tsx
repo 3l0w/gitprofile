@@ -131,6 +131,7 @@ export const getSanitizedConfig = (
       },
       footer: config?.footer,
       enablePWA: config?.enablePWA ?? true,
+      articles: config?.articles ?? [],
     };
   } catch (error) {
     return {};

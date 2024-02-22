@@ -1,3 +1,5 @@
+import { Article } from "./article";
+
 export interface SanitizedGithub {
   username: string;
 }
@@ -135,6 +137,7 @@ export interface SanitizedConfig {
   googleAnalytics: SanitizedGoogleAnalytics;
   hotjar: SanitizedHotjar;
   blog: SanitizedBlog;
+  articles: Article[]
   themeConfig: SanitizedThemeConfig;
   footer?: string;
   enablePWA: boolean;

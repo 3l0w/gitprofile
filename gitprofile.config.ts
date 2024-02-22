@@ -217,6 +217,17 @@ const CONFIG = {
     >GitProfile</a> and ❤️`,
 
   enablePWA: true,
+  articles: [ 
+    {
+      title: "test",
+
+  thumbnail: "https://img.lemde.fr/2019/05/17/87/0/3553/2368/1440/960/60/0/74a2a9f_91ae3c37d18b44d4ae49147a7b9a2126-91ae3c37d18b44d4ae49147a7b9a2126-0.jpg",
+  link: "http://example.com",
+  publishedAt: "2020",
+  description: "desc",
+  categories: ["1","2"],
+    }
+  ]
 };
 
 export default CONFIG;

@@ -270,7 +270,7 @@ const GitProfile = ({ config }: { config: Config }) => {
                       <BlogCard
                         loading={loading}
                         googleAnalyticsId={sanitizedConfig.googleAnalytics.id}
-                        blog={sanitizedConfig.blog}
+                        articles={sanitizedConfig.articles}
                       />
                     )}
                   </div>

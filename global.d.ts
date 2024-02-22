@@ -404,6 +404,8 @@ interface Config {
    * Enable PWA
    */
   enablePWA?: boolean;
+
+  articles?: Article[]
 }
 
 declare const CONFIG: Config;
